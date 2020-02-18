@@ -40,7 +40,7 @@ Resources:
           Properties:
             Name: invoke-lambda-get-sensor-data
             Description: Invoke a lambda function to get sensor data from Nature-Remo. rate(10 minutes).
-            Enabled: True
+            Enabled: False
             Schedule: "rate(10 minutes)"
   LambdaExecutionRole:
     Description: Creating service role in IAM for AWS Lambda
